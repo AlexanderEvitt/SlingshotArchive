@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(9, 10, 36); justify-content: flex-start; align-items: auto; align-self: auto; height: 500px; width: 300px; flex-shrink: 1; flex-direction: column; bottom: auto; top: auto;">
+        <ui:Label tabindex="-1" text="Velocity:" display-tooltip-when-elided="true" name="Velocity" style="-unity-font: url(&apos;project://database/Assets/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=7f96c8889fcfd624d88196286add899e&amp;type=3#NotInter-Regular&apos;); color: rgb(255, 255, 255); font-size: 35px; align-self: flex-start; justify-content: flex-start; align-items: auto; -unity-text-align: lower-left; top: auto; flex-grow: 0;" />
+        <ui:Label tabindex="-1" text="m/s" display-tooltip-when-elided="true" name="ActVelocity" style="-unity-font: url(&apos;project://database/Assets/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=7f96c8889fcfd624d88196286add899e&amp;type=3#NotInter-Regular&apos;); color: rgb(255, 255, 255); font-size: 35px; align-self: center; justify-content: flex-start; align-items: auto; -unity-text-align: lower-left; top: auto;" />
+    </ui:VisualElement>
+</ui:UXML>

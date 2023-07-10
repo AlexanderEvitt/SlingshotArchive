@@ -15,10 +15,10 @@ class Moon:
 
 
 prop_time = 1000000
-int_time = 1
+int_time = 0.1
 M = 5.792 * 10**24 #kg
 G = 6.67 * 10**-11 #N*m^2/kg^2
-craft1 = Spacecraft(init_pos = [10000000,0,0],init_vel = [0,8682,0],mass = 1,deltaV = 1)
+craft1 = Spacecraft(init_pos = [92000000,0,0],init_vel = [0,9150,0],mass = 1,deltaV = 1)
 moon = Moon(mass = 7.347*10**22, alt = 405500000)
 
 # Initialize array as n by 4 (t,x,y,z), units in meters and seconds
